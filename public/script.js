@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://real-time-collaborative-editor-rmi1.onrender.com");
 let editor;
 let currentTheme = "vs-dark";
 let isTyping = false;
