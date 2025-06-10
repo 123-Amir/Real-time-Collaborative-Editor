@@ -2,7 +2,7 @@
 
 A real-time collaborative code editor built with **Node.js**, **Socket.IO**, and **Monaco Editor**. Users can write code live together with multiple language support, dark/light mode, and more.
 
-🌐 **Frontend (Vercel)**: [https://real-time-collaborative-editor.vercel.app](https://real-time-collaborative-editor.vercel.app)  
+🌐 **Frontend (Vercel)**: [https://smart-library-chatbot-of4f.vercel.app](https://smart-library-chatbot-of4f.vercel.app/))  
 🔌 **Backend (Render)**: [https://real-time-collaborative-editor-rmi1.onrender.com](https://real-time-collaborative-editor-rmi1.onrender.com)
 
 ---
