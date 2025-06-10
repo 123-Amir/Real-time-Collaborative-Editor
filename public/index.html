@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Real-time Editor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.45.0/min/vs/loader.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h2>Live Collaborative Editor</h2>
+    <div>
+      <label for="language">Language:</label>
+      <select id="language">
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="json">JSON</option>
+      </select>
+
+      <button id="theme-toggle">Toggle Theme</button>
+      <button id="save-btn">💾 Save</button>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="sidebar">
+      <h3>Live Users</h3>
+      <ul id="users-list"></ul>
+      <div id="typing-indicator">&nbsp;</div>
+    </div>
+    <div id="editor-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
